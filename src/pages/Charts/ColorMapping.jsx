@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ColorMapping = () => {
-  return <div>ColorMapping</div>;
+  return <div>Will be added soon</div>;
 };
 
 export default ColorMapping;
