@@ -8,7 +8,7 @@ import { themeColors } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 
 const ThemeSettings = () => {
-  const [setColor, setMode, currentMode, currentColor, setThemeSettings] =
+  const { setColor, setMode, currentMode, currentColor, setThemeSettings } =
     useStateContext();
 
   return (
